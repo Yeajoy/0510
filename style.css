@@ -1,0 +1,42 @@
+@charset "utf-8";
+.box1{
+		width: 150px;
+		height: 150px;
+		margin: 5px;
+		background-color: #B88E8D;
+		-webkit-transition:all 500ms ease-in-out 0s;
+		-o-transition:all 500ms ease-in-out 0s;
+		transition:all 500ms ease-in-out 0s;
+	}
+	.box2{
+		width: 150px;
+		height: 150px;
+		margin: 5px;
+		background-color: #6369D1;
+		-webkit-transition:all 500ms ease-in-out 0s;
+		-o-transition:all 500ms ease-in-out 0s;
+		transition:all 500ms ease-in-out 0s;
+	}
+	.box3{
+		width: 150px;
+		height: 150px;
+		margin: 5px;
+		background-color: #60E1E0;
+		-webkit-transition:all 500ms ease-in-out 0s;
+		-o-transition:all 500ms ease-in-out 0s;
+		transition:all 500ms ease-in-out 0s;
+	}
+	.box1:hover{
+		background-color: #81B29A;
+		font-size: 20px;
+		transform:translate(30px,30px);
+	}
+	.box2:hover{
+		background-color: #ffc300;
+		font-size: 25px;
+		transform: rotate(15deg);
+	}
+	.box3:hover{
+		background-color: #bdb2ff;
+		font-size: 30px;
+		transform: scale(1.5);
